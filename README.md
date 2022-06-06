@@ -14,7 +14,7 @@ For the monitor process, it stands between the scheduler and the job process.<br
 1.  Goal: measure the actual (or elapsed) time, the user time, and the system time taken of the job process.<br>
 2.  Receive the signals from the scheduler, then do the corresponding things to the job processes.
 ## Scheduler
-`forks and executes` the monitor process
+`Forks and Executes` the monitor process
 1.  Goal: Read the description file, then do the corresponding operations.
 2.  Algorithms: `FCFS`, `None-preemptive SJF`, `Round-Robin`.
 3.  Draw the Gantt charts.
